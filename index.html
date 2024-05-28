@@ -18,29 +18,49 @@
 
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
-        <button type="button" class="btn me-3 btn-dark border">DEV</button>
+        <button type="button" class="btn me-3 btn-dark bg-black border p-2">
+          DEV
+        </button>
+        <input
+          class="input-group-text lg-3 bg-dark w-50"
+          type="search"
+          placeholder="Search"
+          aria-label="Search..."
+        />
         <div
-          class="collapse navbar-collapse justify-content-end"
+          class="collapse navbar-collapse container-fluid justify-content-end col-10 flex-row gap-1 finder-element"
           id="navbarTogglerDemo01"
         >
           <form class="d-flex" role="search">
-            <input
-              class="input-group-text me-3 bg-dark"
-              type="search"
-              placeholder="Search"
-              aria-label="Search..."
-            />
-            <button type="button" class="btn btn-outline-light">
+            <button type="button" class="btn btn-outline-light me-2">
               Create Post
             </button>
-            <button type="button" class="btn">
-              <img class="" src="./IMG/bell.svg" alt="" />
+            <button type="button" class="btn btn-outline-light me-2">
+              <img class="bg-white" src="./IMG/bell.svg" alt="" />
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-light me-5"
+              disabled
+              data-bs-toggle="button"
+            >
+              User
             </button>
           </form>
         </div>
       </div>
     </nav>
 
+    <!-- CONTENEDOR PRINCIPAL CON LEFTBAR-CENTRAL-BAR Y RIGHT-BAR -->
+    <div
+      class="container-fluid d-flex flex-direction-column justify-content-center gap-5"
+    >
+      <div class="left-bar">leftBar</div>
+      <div class="central-container">central-container</div>
+      <div class="rigth-bar">rightBar</div>
+    </div>
+
+    <!-- SCIPT DE BOOTSTRAP -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
