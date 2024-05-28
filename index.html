@@ -16,13 +16,15 @@
   <body>
     <!-- NAVBAR -->
 
-    <nav class="navbar navbar-expand-lg bg-dark">
+    <nav class="navbar navbar-expand-sm bg-dark mx-auto p-2">
       <div class="container-fluid gap-1">
-        <button type="button" class="btn btn-dark bg-black border">DEV</button>
+        <button type="button" class="btn btn-dark bg-black border border-2">
+          DEV
+        </button>
         <input
-          class="input-navbar input-group-text bg-dark w-75 text-start border-1"
+          class="input-navbar input-group-text bg-dark w-100 text-start border border-secondary"
           type="search"
-          placeholder="         Search..."
+          placeholder="       Search..."
           aria-label="Search"
         />
 
@@ -31,10 +33,13 @@
           id="navbarTogglerDemo01"
         >
           <form class="d-flex gap-1" role="search">
-            <button type="button" class="btn btn-outline-light">
+            <button type="button" class="btn btn-outline-danger">
               Create Post
             </button>
-            <button type="button" class="btn btn-outline-light border-0">
+            <button
+              type="button"
+              class="btn btn-outline-light bg-secondary border-0"
+            >
               <img
                 class="bell"
                 src="./IMG/notifications_24dp_FILL0_wght400_GRAD0_opsz24.svg"
@@ -43,15 +48,11 @@
             </button>
             <button
               type="button"
-              class="btn btn-outline-light rounded-5"
+              class="btn btn-outline-primary"
               disabled
               data-bs-toggle="button"
             >
-              <img
-                src="./IMG/person_24dp_FILL0_wght400_GRAD0_opsz24.svg"
-                alt=""
-              />
-              User
+              Login User
             </button>
           </form>
         </div>
