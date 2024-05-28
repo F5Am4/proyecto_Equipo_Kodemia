@@ -4,7 +4,15 @@
   background-position: 10px;
 }
 
+.btn-mod{
+  color: rgb(156, 118, 192);
+  border-color: rgb(156, 118, 192);
+}
+.btn-mod2{
+  background-color: rgb(56, 56, 56);
+}
+
 body {
-  background-color: #363636;
+  background-color: #2c2c2c;
   color: aliceblue;
 }/*# sourceMappingURL=style.css.map */
