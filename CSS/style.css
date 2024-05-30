@@ -27,6 +27,22 @@ body {
   background-color: #131212;
 }
 
+.side-bar {
+  background-color: #131212;
+}
+
+.side-barIn {
+  background-color: #131212;
+}
+
+.side-barIn a {
+  font-size: 18px;
+}
+
+.side-barIn span {
+  font-size: 14px;
+}
+
 .btn-width {
   font-size: 18px;
   width: 50px;
