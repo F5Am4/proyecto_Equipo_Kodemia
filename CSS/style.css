@@ -43,6 +43,14 @@ body {
   font-size: 14px;
 }
 
+.secondPost {
+  background-color: #131212;
+}
+
+.firstPost {
+  background-color: #131212;
+}
+
 .btn-width {
   font-size: 18px;
   width: 50px;
@@ -50,17 +58,3 @@ body {
   display: flex;
   justify-content: center;
 }/*# sourceMappingURL=style.css.map */
-
-
-
-
-.scroll-conteiner{
-  height: 50px;
- overflow-y: auto;
- border: .5rem white; 
-}
-
-.overflow-y-scroll{
-  max-height: 270px;
-  overflow-y: auto;
-}
