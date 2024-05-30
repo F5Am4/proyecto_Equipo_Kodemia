@@ -50,3 +50,17 @@ body {
   display: flex;
   justify-content: center;
 }/*# sourceMappingURL=style.css.map */
+
+
+
+
+.scroll-conteiner{
+  height: 50px;
+ overflow-y: auto;
+ border: .5rem white; 
+}
+
+.overflow-y-scroll{
+  max-height: 270px;
+  overflow-y: auto;
+}
